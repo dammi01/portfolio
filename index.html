@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Michael Dambock - Portfólio</title>
+    <title>Document</title>
+  </head>
+  <body>
+  
+    <!-- Header Section -->
+
+    <header>
+      <div class="header-left">
+        <img src="LOGO_v1.png" alt="My Logo" class="logo-img" width="50" height="50" />
+        <a href="#home" class="logo">Michael Dambock</a>
+        <img src="LOGO_v1.png" alt="My Logo" class="logo-img" width="50" height="50" />
+      </div>  
+
+      <div class="header-center">
+        <div class="box">
+          <div class="dropdown">Language
+            <span class="left-icon"></span>
+            <span class="right-icon"></span>
+            <div class="items">
+              <a href="#" data-lang="en" style="--i:1;"><span></span>English</a>
+              <a href="#" data-lang="de" style="--i:2;"><span></span>German</a>
+              <a href="#" data-lang="pt" style="--i:3;"><span></span>Portuguese</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        
+        <ul class="navbar">
+          <li><a href="#home" data-translate="navHome">Home</a></li>
+          <li><a href="#about" data-translate="navAbout">About</a></li>
+          <li><a href="#highlights" data-translate="navHighlights">Highlights</a></li>
+          <li><a href="#skills" data-translate="navSkills">Skills</a></li>
+          <li><a href="#portfolio" data-translate="navPortfolio">Portfolio</a></li>
+          <li><a href="#contact" data-translate="navContact">Contact</a></li>
+        </ul>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+      </div>
+      
+    </header>
+
+    <!-- Home Section Code -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <img src="LOGO_v2.png" alt="My Logo" width="150" height="150" />
+        <h1 data-translate="name">Michael Dambock</h1>
+        <h3><span class="multiple-text" data-translate="title"></span></h3>
+        <p data-translate="description">
+          <br />Experienced Developer with over 20 years in IT, now focused on applying expertise to Data Science,
+          <br />Data Alchemy and AI-driven development. Seeking to leverage strong background in programming, 
+          <br />project management, data analysis, and large-scale system development to create innovative solutions.
+          <br />
+          <br />Committed to technological advancement through the integration of traditional software engineering, 
+          <br />innovation and modern AI methodologies.
+          <br />
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+          
+        <!-- Wrapping both buttons in a new container -->
+        <div class="button-group">
+          <a href="#" class="btn download-cv" data-translate="download">Download CV</a>
+          <a href="#contact" class="btn contact-me" data-translate="contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="BW_face.jpg" alt="Profile Image" />
+      </div>
+    </section>
+
+    <!-- About Section Code  -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="CO_face.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading" data-translate="aboutHeading"><span>About Me</span></h2>
+          <p data-translate="aboutDescription">
+          I am a passionate enthusiast of IT and technology in general. 
+          <br />My professional journey is as diverse as my eclectic taste in music, which ranges 
+          <br />from ABBA's pop to ZZ Top's rock. In my spare time, you can find me immersed in a good book, 
+          <br />be it technical, historic, filosofic, dramatic, biblical, or fantasy fiction, reflecting my love 
+          <br />for reading and continuous learning. 
+          <br />
+          <br />As a cinephile, I appreciate the art of visual storytelling as much as the thrill of a 
+          <br />Formula 1 race. Above all, I am a nature lover, finding peace and inspiration whether at 
+          <br />the beach, by the sea, or amidst the greenery of the woods.
+        </p>
+      </div>
+    </section>
+
+    <!-- Highlights Section Code  -->
+
+    <section class="highlights" id="highlights">
+      <div class="highlights-content">
+        <h2 class="heading" data-translate="highlightsHeading"><span>Professional Highlights and Goals</span></h2>
+          <p data-translate="highlightsDescription">
+          A professional with over four decades of experience in technology and administration sectors, my career
+          <br />is marked by significant projects and complex systems. I started in IT, developing solutions such as 
+          <br />annual balance sheets in Lotus 1-2-3, budget control systems in dBase III/Clipper'87, and project
+          <br />coordination with CA-SuperProject.<br />
+          <br />My expertise encompasses the creation of a complete telemarketing system in CA-QbyX, implementation 
+          <br />and programming of electronic time clocks using Visual Basic, C, and SQL, as well as programming, 
+          <br />adaptation, and implementation of customer service systems (CRM) using BMC AR System and SQL databases.
+          <br />After a period in administration, where I optimized management processes, I am returning to the IT field with 
+          <br />a new purpose: to apply my accumulated knowledge in Data Science, Data Alchemy, and AI development, 
+          <br />contributing to create innovative solutions.<br />
+          <br />My competencies include:
+          <br />. Design, programming, and implementation of solutions
+          <br />. Analysis and implementation of large-scale projects
+          <br />. IT support, Telemarketing and portfolio development<br />
+          <br />I am seeking new challenges that allow me to utilize my skills in problem-solving, analytical thinking,  
+          <br />and attention to detail. I am enthusiastic about contributing my vast experience, collaborating with 
+          <br />the growth of a dynamic and future-oriented team.
+        </p>
+      </div>
+      <div class="highlights-img">
+        <img src="CO_face.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Skills Section Code  -->
+
+    <section class="skills" id="skills">
+      <div class="skills-content">
+        <h2 class="heading" data-translate="skillsHeading"><span>Skills</span></h2>
+        <div id="wrapper">
+          <div id="container">
+              <ol class="organizational-chart">
+                  <li>                
+                      <div>
+                          <h1>Ferramentas e Tecnologias</h1>
+                      </div>
+                      <ol>
+                          <li>
+                              <div>
+                                  <h2>Programação</h2>
+                              </div>
+                              <ol>
+                                  <li>
+                                      <div>
+                                          <h3>HTML</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>CSS</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Javascript</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Basic</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Pascal</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Fortran</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>C / C++</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Python</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Rust (em estudo)</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>GO (em estudo)</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Mojo (em estudo)</h3>
+                                      </div>                            
+                                  </li>
+                              </ol>
+                          </li>
+                          <li>
+                              <div>
+                                  <h2>Bancos de Dados</h2>
+                              </div>
+                              <ol>
+                                  <li>
+                                      <div>
+                                          <h3>SQL-Server</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>POSTGRES</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>DB2</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Sybase</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Informix</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>ORACLE</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>dBase / Clipper</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Progress</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>MongoDB (em estudo)</h3>
+                                      </div>
+                                  </li>
+                              </ol>
+                          </li>
+                          <li>
+                              <div>
+                                  <h2>Ferramentas</h2>
+                              </div>
+                              <ol>
+                                  <li>
+                                      <div>
+                                          <h3>Notion</h3>
+                                      </div>
+                                  
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>ClickUp</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Figma</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Evernote</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>AutoCAD / Revit</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Office</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Git / Github</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Docker</h3>
+                                      </div>
+                                  </li>
+                              </ol>
+                          </li>
+                          <li>
+                              <div>
+                                  <h2>Frameworks e Tecnologias</h2>
+                              </div>
+                              <ol>
+                                  <li>
+                                      <div>
+                                          <h3>Django</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>CA-QbyX</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>BMC AR-System</h3>
+                                      </div>
+                                  </li>
+                              </ol>
+                          </li>
+                          <li>
+                              <div>
+                                  <h2>Sistemas</h2>
+                              </div>
+                              <ol>
+                                  <li>
+                                      <div>
+                                          <h3>DOS</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Windows</h3>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>OS/2</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>Linux</h3>
+                                      </div>                            
+                                  </li>
+                                  <li>
+                                      <div>
+                                          <h3>UNIX</h3>
+                                      </div>                            
+                                  </li>
+                              </ol>
+                          </li>
+                      </ol>
+                  </li>
+              </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section Code -->
+
+    <section class="portfolio" id="portfolio">
+      
+      <div class="portfolio-content">
+        <h2 class="heading"><span>My Portfolio</span></h2>  
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="11.png" alt="" />
+            <div class="main-row">
+              <div class="row-text">
+                <h5>SAC's implantados</h5>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="22.png" alt="" />
+            <div class="main-row">
+              <div class="row-text">
+                <h5>Project Management</h5>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="33.png" alt="" />
+            <div class="main-row">
+              <div class="row-text">
+                <h5>Telemarketing System</h5>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="44.png" alt="" />
+            <div class="main-row">
+              <div class="row-text">
+                <h5>Website Design</h5>
+              </div>
+              <div class="row-icon">
+                <i class="bx bxl-github"></i>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Contact Section Code -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" />
+                <input type="email" placeholder="Email Address" />
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number" />
+                <input type="text" placeholder="Email Subject" />
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+        </form>
+    </section>
+
+    <!-- Footer Section Code -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <p class="copyright">
+            &copy; Michael Dambock (2024) | All Rights Reserved
+        </p>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
