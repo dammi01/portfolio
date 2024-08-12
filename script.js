@@ -34,57 +34,7 @@ const typed = new Typed('.multiple-text', {
 // Session for translating Home Section Code
 
 document.addEventListener('DOMContentLoaded', function() {
-    const translations = {
-      en: {
-        navHome: "Home",
-        navAbout: "About",
-        navHighlights : "Highlights",
-        navPortfolio: "Portfolio",
-        navContact: "Contact",
-        name: "Michael Dambock",
-        title: "System Analyst, Backend Developer, Solution Provider",
-        description: "Experienced Developer with over 20 years in IT, now focused on applying expertise to Data Science,\n" +
-        "Data Alchemy and AI-driven development. Seeking to leverage strong background in programming,\n" +
-        "project management, data analysis, and large-scale system development to create innovative solutions.\n\n" +
-        "Committed to technological advancement through the integration of traditional software engineering,\n" + 
-        "innovation and modern AI methodologies.",
-        download: "Download CV",
-        contact: "Contact Me"
-      },
-      pt: {
-        navHome: "Início",
-        navAbout: "Sobre",
-        navHighlights : "Destaques",
-        navPortfolio: "Portfólio",
-        navContact: "Contato",
-        name: "Michael Dambock",
-        title: "Analista de Sistemas, Desenvolvedor Backend, Provedor de Soluções",
-        description: "Desenvolvedor Experiente com mais de 20 anos em TI, agora focado em aplicar expertise em Ciência de Dados,\n" +
-        "Alquimia de Dados e desenvolvimento impulsionado por IA. Buscando aproveitar forte experiência em programação,\n" +
-        "gerenciamento de projetos, análise de dados e desenvolvimento de sistemas em larga escala para criar soluções inovadoras.\n\n" +
-        "Comprometido com o avanço tecnológico através da integração de engenharia de software tradicional,\n" +
-        "inovação e metodologias modernas de IA.",
-        download: "Baixar CV",
-        contact: "Contato"
-      },
-      de: {
-        navHome: "Startseite",
-        navAbout: "Über",
-        navHighlights : "Höhepunkte",
-        navPortfolio: "Portfolio",
-        navContact: "Kontakt",
-        name: "Michael Dambock",
-        title: "Systemanalytiker, Backend-Entwickler, Lösungsanbieter",
-        description: "Erfahrener Entwickler mit über 20 Jahren in der IT, jetzt fokussiert auf die Anwendung von Expertise in Data Science,\n" +
-        "Data Alchemy und AI-gesteuerter Entwicklung. Suche nach der Nutzung eines starken Hintergrunds in Programmierung,\n" +
-        "Projektmanagement, Datenanalyse und Entwicklung von Großsystemen zur Schaffung innovativer Lösungen.\n\n" +
-        "Engagiert für den technologischen Fortschritt durch die Integration von traditioneller Softwareentwicklung,\n" +
-        "Innovation und modernen KI-Methoden.",
-        download: "Lebenslauf herunterladen",
-        contact: "Kontakt"
-      }
-    };
-  
+      
     document.querySelectorAll('.dropdown .items a').forEach(item => {
       item.addEventListener('click', function(event) {
         event.preventDefault();
@@ -110,6 +60,20 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('DOMContentLoaded', function() {
     const translations = {
         en: {
+            navHome: "Home",
+            navAbout: "About",
+            navHighlights : "Highlights",
+            navPortfolio: "Portfolio",
+            navContact: "Contact",
+            name: "Michael Dambock",
+            title: "System Analyst, Backend Developer, Solution Provider",
+            homeDescription: "Experienced Developer with over 20 years in IT, now focused on applying expertise to Data Science,\n" +
+            "Data Alchemy and AI-driven development. Seeking to leverage strong background in programming,\n" +
+            "project management, data analysis, and large-scale system development to create innovative solutions.\n\n" +
+            "Committed to technological advancement through the integration of traditional software engineering,\n" + 
+            "innovation and modern AI methodologies.",
+            download: "Download CV",
+            contact: "Contact Me",
             aboutHeading: "About Me",
             aboutDescription: `I am a passionate enthusiast of IT and technology in general. 
             <br />My professional journey is as diverse as my eclectic taste in music, which ranges 
@@ -129,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <br />and programming of electronic time clocks using Visual Basic, C, and SQL, as well as programming, 
             <br />adaptation, and implementation of customer service systems (CRM) using BMC AR System and SQL databases.
             <br />After a period in administration, where I optimized management processes, I am returning to the IT field with 
-            <br />a new purpose: to apply my accumulated knowledge in Data Science, Data Alchemy, and AI development, 
+            <br />a new purpose: to apply my accumulated knowledge in Data Science, Data Alchemy, and AI-driven development, 
             <br />contributing to create innovative solutions.<br />
             <br />My competencies include:<br />
             <ul>
@@ -142,6 +106,20 @@ document.addEventListener('DOMContentLoaded', function() {
             <br />the growth of a dynamic and future-oriented team.`
         },
         pt: {
+            navHome: "Início",
+            navAbout: "Sobre",
+            navHighlights : "Destaques",
+            navPortfolio: "Portfólio",
+            navContact: "Contato",
+            name: "Michael Dambock",
+            title: "Analista de Sistemas, Desenvolvedor Backend, Provedor de Soluções",
+            homeDescription: "Desenvolvedor Experiente com mais de 20 anos em TI, agora focado em aplicar expertise em Ciência de Dados,\n" +
+            "Alquimia de Dados e desenvolvimento impulsionado por IA. Buscando aproveitar forte experiência em programação,\n" +
+            "gerenciamento de projetos, análise de dados e desenvolvimento de sistemas em larga escala para criar soluções inovadoras.\n\n" +
+            "Comprometido com o avanço tecnológico através da integração de engenharia de software tradicional,\n" +
+            "inovação e metodologias modernas de IA.",
+            download: "Baixar CV",
+            contact: "Contato",
             aboutHeading: "Sobre Mim",
             aboutDescription: `Sou um entusiasta apaixonado de TI e tecnologia em geral. 
             <br />Minha jornada profissional é tão diversa quanto meu gosto eclético em música, que varia 
@@ -162,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <br />e implementação de sistemas de atendimento ao cliente (CRM) utilizando BMC AR System e bancos de dados SQL.
             <br />Após um período na administração, onde otimizei processos de gestão, estou retornando ao campo da TI com um 
             <br />novo propósito: aplicar meu conhecimento acumulado em Ciência de Dados, Alquimia de Dados e desenvolvimento 
-            <br />de IA, contribuindo para criar soluções inovadoras.<br />
+            <br />com IA, contribuindo para criar soluções inovadoras.<br />
             <br />Minhas competências incluem:
             <ul>
                 <li>. Elaboração, programação e implementação de soluções</li>
@@ -174,6 +152,20 @@ document.addEventListener('DOMContentLoaded', function() {
             <br />colaborando com o crescimento de uma equipe dinâmica e orientada para o futuro.`
         },
         de: {
+            navHome: "Startseite",
+            navAbout: "Über",
+            navHighlights : "Höhepunkte",
+            navPortfolio: "Portfolio",
+            navContact: "Kontakt",
+            name: "Michael Dambock",
+            title: "Systemanalytiker, Backend-Entwickler, Lösungsanbieter",
+            homeDescription: "Erfahrener Entwickler mit über 20 Jahren in der IT, jetzt fokussiert auf die Anwendung von Expertise in Data Science,\n" +
+            "Data Alchemy und AI-gesteuerter Entwicklung. Suche nach der Nutzung eines starken Hintergrunds in Programmierung,\n" +
+            "Projektmanagement, Datenanalyse und Entwicklung von Großsystemen zur Schaffung innovativer Lösungen.\n\n" +
+            "Engagiert für den technologischen Fortschritt durch die Integration von traditioneller Softwareentwicklung,\n" +
+            "Innovation und modernen KI-Methoden.",
+            download: "Lebenslauf herunterladen",
+            contact: "Kontakt",
             aboutHeading: "Über mich",
             aboutDescription: `Ich bin ein leidenschaftlicher Enthusiast für IT und Technologie im Allgemeinen. 
             <br />Meine berufliche Reise ist so vielfältig wie mein eklektischer Musikgeschmack, der sich 
