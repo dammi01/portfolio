@@ -264,7 +264,9 @@ function setLanguage(lang) {
         console.warn('No text content found on element');
         return;
       }
-      item.textContent = translations[lang][key];
+      //item.textContent = translations[lang][key];
+      //item.textContent = translations[lang][key].replace(/<br \/>/g, '\n');
+      item.innerHTML = translations[lang][key];
     }
   });
 }
