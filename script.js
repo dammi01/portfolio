@@ -69,8 +69,8 @@ const translations = {
         <br />and programming of electronic time register / clocks using Visual Basic, C, and SQL, as well as programming, 
         <br />adaptation, and implementation of customer service systems (CRM) using BMC AR-System and SQL databases.
         <br />After a period in administration, where, among others, I optimized and digitalized management processes, I am 
-        <br />returning to the IT field with a new purpose: to apply my accumulated knowledge now in Data Science, Data 
-        <br />Alchemy and AI-driven development, thus contributing to create innovative solutions.<br />
+        <br />returning to the IT field with a new purpose: to apply my accumulated knowledge now in Data Engineering, Data 
+        <br />Analysis, Data Alchemy and AI-driven development, thus contributing to create innovative solutions.<br />
         <br />My competencies include:<br />
         <ul>
             <li>. Design, programming, and implementation of solutions</li>
@@ -89,7 +89,16 @@ const translations = {
         phonePlaceholder: "Phone Number",
         subjectPlaceholder: "Email Subject",
         messagePlaceholder: "Your Message",
-        sendMessage: "Send Message"
+        sendMessage: "Send Message",
+        sacsImplemented: "CRM's implemented",
+        projectManagement: "Project Management",
+        telemarketingSystem: "Telemarketing System",
+        websiteDesign: "Website Design",
+        toolsAndTech1: "Programming Languages",
+        toolsAndTech2: "Databases",
+        toolsAndTech3: "Tools",
+        toolsAndTech4: "Frameworks & Technologies",
+        toolsAndTech5: "Systems"
     },
     pt: {
         navHome: "Início",
@@ -127,8 +136,8 @@ const translations = {
         <br />de pontos eletrônicos utilizando Visual Basic, C e SQL, bem como programação, adaptação e implementação de sistemas
         <br />de atendimento ao cliente (SAC) utilizando BMC AR-System e bancos de dados SQL. Após um período na administração, 
         <br />onde entre outros, otimizei e digitalizei processos de gestão, estou retornando ao campo da TI com um novo propósito: 
-        <br />aplicar meu conhecimento acumulado agora em Ciência de Dados, Data Alchemy e desenvolvimento orientado por IA, 
-        <br />contribuindo assim na criação de soluções novas e inovadoras.<br />
+        <br />aplicar meu conhecimento acumulado agora em Engenharia de Dados, Análise de Dados, Data Alchemy e desenvolvimento 
+        <br />orientado por IA, contribuindo assim na criação de soluções novas e inovadoras.<br />
         <br />Minhas competências incluem:
         <ul>
             <li>. Elaboração, programação e implementação de soluções</li>
@@ -147,7 +156,16 @@ const translations = {
         phonePlaceholder: "Telefone",
         subjectPlaceholder: "Assunto",
         messagePlaceholder: "Mensagem",
-        sendMessage: "Enviar Mensagem"
+        sendMessage: "Enviar Mensagem",
+        sacsImplemented: "SAC's implementados",
+        projectManagement: "Gerenciamento de Projetos",
+        telemarketingSystem: "Sistema de Telemarketing",
+        websiteDesign: "Design de Sites",
+        toolsAndTech1: "Linguagens de Programação",
+        toolsAndTech2: "Banco de Dados",
+        toolsAndTech3: "Ferramentas",
+        toolsAndTech4: "Frameworks & Tecnologias",
+        toolsAndTech5: "Sistemas"
     },
     de: {
         navHome: "Startseite",
@@ -170,7 +188,7 @@ const translations = {
         aboutDescription: `Ich bin ein leidenschaftlicher Enthusiast für IT und Technologie im Allgemeinen. Meine berufliche Reise ist so 
         <br />vielfältig wie mein eklektischer Musikgeschmack, der sich vom Pop von ABBA bis zum Rock von ZZ Top erstreckt. 
         <br />In meiner Freizeit finden Sie mich in einem guten Buch versunken, sei es technisch, historisch, philosophisch, 
-        <br />dramatisch, biblischen oder Science / Fantasy-Fiction, was meine Liebe für das Lesen und kontinuierliches 
+        <br />dramatisch, biblisch oder Science / Fantasy-Fiction, was meine Liebe für das Lesen und kontinuierliches 
         <br />Lernen widerspiegelt. 
         <br />
         <br />Als Filmkunstliebhaber schätze ich die Kunst der visuellen Erzählung ebenso sehr wie die Spannung eines 
@@ -185,8 +203,8 @@ const translations = {
         <br />und Programmierung von elektronischen Zeiterfassungssystemen mit Visual Basic, C und SQL sowie die Programmierung,
         <br />Anpassung und Implementierung von Kundenservicesystemen (CRM) mit BMC AR-System und SQL-Datenbanken. Nach 
         <br />einer Phase in der Verwaltung, in der ich u.a. Managementprozesse optimierte und digitalizierte, kehre ich mit einem neuen
-        <br />Ziel in den IT-Bereich zurück: mein angesammeltes Wissen nun in Data Science, Data Alchemy und KI-gestützter Entwicklung 
-        <br />anzuwenden, um somit neue und innovative Lösungen zu schaffen.<br />
+        <br />Ziel in den IT-Bereich zurück: mein angesammeltes Wissen nun in Data Engineering, Daten Analyse, Data Alchemy und 
+        <br />KI-gestützter Entwicklung anzuwenden, um somit neue und innovative Lösungen zu schaffen.<br />
         <br />Meine Kompetenzen umfassen:<br />
         <ul>
             <li>. Entwurf, Programmierung und Implementierung von Lösungen</li>
@@ -205,7 +223,16 @@ const translations = {
         phonePlaceholder: "Telefonnummer",
         subjectPlaceholder: "Betreff",
         messagePlaceholder: "Ihr Nachricht",
-        sendMessage: "Nachricht senden"
+        sendMessage: "Nachricht senden",
+        sacsImplemented: "KDS Implementiert",
+        projectManagement: "Projektmanagement",
+        telemarketingSystem: "Telemarketing-System",
+        websiteDesign: "Website-Design",
+        toolsAndTech1: "Programmiersprachen",
+        toolsAndTech2: "Datenbanken",
+        toolsAndTech3: "Werkzeuge",
+        toolsAndTech4: "Frameworks & Technologien",
+        toolsAndTech5: "Systeme"
     }
 };
 /**
@@ -264,8 +291,6 @@ function setLanguage(lang) {
         console.warn('No text content found on element');
         return;
       }
-      //item.textContent = translations[lang][key];
-      //item.textContent = translations[lang][key].replace(/<br \/>/g, '\n');
       item.innerHTML = translations[lang][key];
     }
   });
